@@ -10,31 +10,31 @@ It uses Jaccard similarity on cleaned word sets (stop-words removed) and provide
 
 ## ✨Features
 
-Supports .txt, .pdf, and .docx files
-Compare two local documents
-Check against Wikipedia articles (by title)
-Check against any public webpage (full URL scraping)
-Stop-word removal & text normalization
-Jaccard similarity for pairwise comparison
-Containment score when checking against web sources (shows how much of your text appears in the source)
-Color-coded plagiarism alerts (Extreme / High / Moderate / Low)
-Displays first 20 common words
+* Supports .txt, .pdf, and .docx files
+* Compare two local documents
+* Check against Wikipedia articles (by title)
+* Check against any public webpage (full URL scraping)
+* Stop-word removal & text normalization
+* Jaccard similarity for pairwise comparison
+* Containment score when checking against web sources (shows how much of your text appears in the source)
+* Color-coded plagiarism alerts (Extreme / High / Moderate / Low)
+* Displays first 20 common words
 
 ---
 
-## How to Run
+## 🚀How to Run
 
 1. How to Clone this repo?
     * Make sure you have git, VS Code downloaded
     * Open VS code select any new folder
     * Select Terminal->New Terminal->pass
     ```
-        git clone https://github.com/P-VARUN/PLAGIARISM-CHECKER
+        git clone https://github.com/P-VARUN/Plagiarism-Checker_with-python
     ```
     that code in Terminal.
 2. `pip install -r requirements.txt`
 
-## How to Use
+## 📃How to Use
 
 Create a folder named ```documents``` in the same directory as main.py
 Place the files you want to check inside the documents folder
@@ -49,15 +49,15 @@ Follow the prompts. Results with similarity percentage and common words will be 
 
 ---
 
-## Tips & Tricks
+## 💡Tips & Tricks
 
-For Wikipedia: you can type just the title (Quantum Mechanics) or paste the full URL.
-If Wikipedia gives a disambiguation error, try the exact page title or use the full URL in mode 3.
-The tool ignores common stop-words (a, the, and, of, etc.) to focus on meaningful content.
-Works completely offline for local file comparisons.
+* For Wikipedia: you can type just the title (Quantum Mechanics) or paste the full URL.
+* If Wikipedia gives a disambiguation error, try the exact page title or use the full URL in mode 3.
+* The tool ignores common stop-words (a, the, and, of, etc.) to focus on meaningful content.
+* Works completely offline for local file comparisons.
 
 
-### Limitations
+### ⚠️Limitations
 
 Does not detect paraphrased plagiarism perfectly (only exact/shared wording).
 Web scraping may be blocked on some sites with heavy anti-bot protection.
@@ -70,7 +70,7 @@ No synonym replacement or semantic analysis (pure set-based Jaccard).
 Feel free to Contact me for new ideas you have in this project.
 
 
-## License
+## 🔐License
 MIT License - feel free to use, modify, and distribute.
 
 Made espically for STUDENTS.
