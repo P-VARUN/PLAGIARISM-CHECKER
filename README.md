@@ -56,6 +56,7 @@ Follow the prompts. Results with similarity percentage and common words will be 
 * The tool ignores common stop-words (a, the, and, of, etc.) to focus on meaningful content.
 * Works completely offline for local file comparisons.
 
+---
 
 ### ⚠️Limitations
 
@@ -70,7 +71,7 @@ No synonym replacement or semantic analysis (pure set-based Jaccard).
 Feel free to Contact me for new ideas you have in this project.
 
 
-## 🔐License
+### 🔐License
 MIT License - feel free to use, modify, and distribute.
 
 Made espically for STUDENTS.
